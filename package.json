@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "08f5199b-fa52-4f04-9109-e7ba2a495a0a",
+    "appType": "clockface",
+    "appDisplayName": "Miami",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#00bcd4",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Miami"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}
