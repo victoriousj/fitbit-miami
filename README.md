@@ -4,7 +4,7 @@ FitBit allows people to use JavaScript to develop and publish apps on some of th
 
 ---
 
-![Screen Capture of the Miami Clock Face](./Capture.png?raw=true 'GTA Vice City, anyone?')
+![Screen Capture of the Miami Clock Face](./Capture.PNG?raw=true 'GTA Vice City, anyone?')
 
 ---
 
