@@ -26,7 +26,8 @@ function tickHandler(evt) {
   let dayNumber = util.zeroPad(today.getDate());
 
   let hours = today.getHours();
-  hours = util.zeroPad(hours % 12) || 12;
+  hours = hours % 12 || 12;
+  hours = util.zeroPad(hours);
   let mins = ' ' + util.zeroPad(today.getMinutes());
 
   let hour = hours;
