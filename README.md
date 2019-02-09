@@ -15,17 +15,17 @@ Use Git to clone the repository and Node/NPM to run the application.
 ```bash
 git clone https://github.com/victoriousj/fitbit-miami/
 ```
-*Install the FitBit app on your phone
-*Open FitBit Studio online (you will need a free FitBit account)
-*Create new Empty Project
-*Drag-and-drop project files into project directory
-*Connect your phone to your computer and make sure it is in file-transfer mode
-*Enable Developer Options within the app
-*Enable Developer Bridge on the watch
-*Select your phone and your watch within FitBit Studio
-*Build project
-*Run project
-*SUCCESS!!
+* Install the FitBit app on your phone
+* Open FitBit Studio online (you will need a free FitBit account)
+* Create new Empty Project
+* Drag-and-drop project files into project directory
+* Connect your phone to your computer and make sure it is in file-transfer mode
+* Enable Developer Options within the app
+* Enable Developer Bridge on the watch
+* Select your phone and your watch within FitBit Studio
+* Build project
+* Run project
+* SUCCESS!!
 
 
 ## License
