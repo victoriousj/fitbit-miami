@@ -23,7 +23,7 @@ export function initialize(callback) {
 messaging.peerSocket.addEventListener("message", function(evt) {
   settings[evt.data.key] = evt.data.value;
   onsettingschange(settings);
-})
+});
 
 // Register for the unload event
 me.addEventListener("unload", saveSettings);

@@ -12,7 +12,10 @@ let lastReading = 0;
 let heartRate;
 
 export function initialize(callback) {
-  if (me.permissions.granted("access_heart_rate") && me.permissions.granted("access_user_profile")) {
+  if (
+    me.permissions.granted("access_heart_rate") &&
+    me.permissions.granted("access_user_profile")
+  ) {
     hrmCallback = callback;
     hrm = new HeartRateSensor();
     setupEvents();

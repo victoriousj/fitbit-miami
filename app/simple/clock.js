@@ -28,13 +28,13 @@ function tickHandler(evt) {
   let hours = today.getHours();
   hours = hours % 12 || 12;
   hours = util.zeroPad(hours);
-  let mins = ' ' + util.zeroPad(today.getMinutes());
+  let mins = " " + util.zeroPad(today.getMinutes());
 
   let hour = hours;
   let min = mins;
   let dateString = today;
 
-  switch(dateFormat) {
+  switch (dateFormat) {
     case "shortDate":
       dateString = `${dayNumber} ${monthNameShort}`;
       break;
@@ -45,5 +45,5 @@ function tickHandler(evt) {
       dateString = `${dayName} ${monthName} ${dayNumber}`;
       break;
   }
-  clockCallback({hour: hour, min: min, date: dateString});
+  clockCallback({ hour: hour, min: min, date: dateString });
 }
