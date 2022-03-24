@@ -1,4 +1,4 @@
-# FitBit Ionic Miami Watch Face
+# FitBit Versa 3 Miami Watch Face
 
 FitBit allows people to use JavaScript to develop and publish apps on some of their watches. I was not as happy as I could be with the list of watch faces they offered, so why not make my own?
 
