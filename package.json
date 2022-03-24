@@ -1,26 +1,26 @@
 {
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
   "fitbit": {
-    "appUUID": "08f5199b-fa52-4f04-9109-e7ba2a495a0a",
+    "appUUID": "3783553b-b7b4-42c8-818f-abb8cb652d45",
     "appType": "clockface",
-    "appDisplayName": "Miami",
+    "appDisplayName": "Clock",
     "iconFile": "resources/icon.png",
-    "wipeColor": "#00bcd4",
+    "wipeColor": "",
     "requestedPermissions": [
-      "access_heart_rate",
       "access_activity",
-      "access_user_profile"
+      "access_user_profile",
+      "access_heart_rate"
     ],
     "buildTargets": [
-      "higgs",
-      "meson"
+      "atlas"
     ],
     "i18n": {
-      "en": {
-        "name": "Miami"
+      "en-US": {
+        "name": "Clock"
       }
-    }
-  },
-  "devDependencies": {
-    "@fitbit/sdk": "~3.0.0"
+    },
+    "defaultLanguage": "en-US"
   }
 }

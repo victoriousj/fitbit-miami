@@ -1,5 +1,6 @@
 <svg>
   <rect id="background" />
+    <rect id="backgroundA" />
   <text id="txtHrTime" class="clock-text clock-hour-text">13</text>
   <text id="txtMinTime" class="clock-text clock-min-text">37</text>
   <rect class="divider divider-top" />
